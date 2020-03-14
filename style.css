@@ -54,17 +54,20 @@ color: #750c1d;
     box-shadow: 1px 1px #8d1a2bb7;
     
 }
-.foot-border {
-    border-bottom: 1px solid;
-    border-color: white;
-    width: 25%;
-    
+.foot-er {
+    background-color: #e95f4b;
 }
 
 .bg-purp {
     background-color: #b01cb5;
     color: #fdbd12;
     border-bottom: 2px solid;
+    border-top: 2px solid;
+}
+
+.c-text {
+    color: #fdbd12;
+    margin-bottom: 0;
 }
 
 
