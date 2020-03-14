@@ -23,7 +23,7 @@ font-weight: bolder;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 75%;
+    height: 25rem;
     
 }
 
@@ -35,27 +35,69 @@ font-weight: bolder;
 
 .set-card-body {
     margin-bottom: 1rem;
+    font-size: large;
 }
 
-.set-deck-body {
-    margin-top: 3rem;
-}
 
 .row-line {
-    height: 18rem;
+    height: 35rem;
     border-bottom: 1px solid #b01cb5b9;
     box-shadow: 1px 1px #8d1a2bb7;
+    
 }
-
 .foot-border {
     border-bottom: 1px solid;
     border-color: white;
     width: 25%;
-
+    
 }
 
 .bg-purp {
     background-color: #b01cb5b9;
     color: #8d1a2bb7;
 }
-    
+
+
+/* Media queries */
+
+@media (max-width: 575.98px){
+    .set-card-body {
+        margin-bottom: 3rem;   
+    }
+}
+@media (min-width: 768px){
+.set-deck-body {
+    position: relative;
+    top: 12.5rem;
+    left: 1rem;
+    }
+}
+@media (max-width: 575.98px){
+    .set-deck-body {
+        position: relative;
+        top: 5rem;
+        left: 0;
+    }
+}
+
+@media (min-width: 1024px){
+    .set-deck-body {
+        position: relative;
+        top: 20rem;
+        left: 6rem;
+    }
+}
+
+@media (max-width: 575.98px){ 
+    .card-img-top {
+    height: 100px !important;
+    width: 100px !important;
+    align-self: center;
+    }
+}
+
+@media (min-width: 576px){
+    .row-line {
+    height: 10rem;
+    }
+}
