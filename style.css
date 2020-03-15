@@ -1,3 +1,4 @@
+/* Back Ground Images */
 .backgroundimg {
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Webpage_background.jpg/800px-Webpage_background.jpg);
     width: 100%;
@@ -7,6 +8,24 @@
     background-size: cover;
 }
 
+.backgroundimg2 {
+    background-image: url(https://ih1.redbubble.net/image.616900114.8552/flat,1000x1000,075,f.u2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25rem;
+    
+}
+
+/* BackGround Colors */
+.bg-purp {
+    background-color: #b01cb5;
+    color: #fdbd12;
+    border-bottom: 2px solid;
+    border-top: 2px solid;
+}
+
+/* Buttons */
 .p-btn {
     background-color: #b01cb5b9;
     color:#f4a023;
@@ -16,15 +35,6 @@
 background-color: transparent;
 color: #b01cb5b9;
 font-weight: bolder;
-}
-
-.backgroundimg2 {
-    background-image: url(https://ih1.redbubble.net/image.616900114.8552/flat,1000x1000,075,f.u2.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 25rem;
-    
 }
 
 .set-button {
@@ -40,6 +50,7 @@ background-color: #fdbd12;
 color: #750c1d;
 }
 
+/* Card Elements */
 .set-card-body {
     margin-bottom: 1rem;
     font-size: large;
@@ -47,34 +58,24 @@ color: #750c1d;
     color: #fdbd12;
 }
 
-
-.row-line {
-    height: 35rem;
-    border-bottom: 1px solid #b01cb5b9;
-    box-shadow: 1px 1px #8d1a2bb7;
-    
-}
-.foot-er {
-    background-color: #e95f4b;
-}
-
-.bg-purp {
-    background-color: #b01cb5;
-    color: #fdbd12;
-    border-bottom: 2px solid;
-    border-top: 2px solid;
-}
-
 .c-text {
     color: #fdbd12;
     margin-bottom: 0;
 }
 
+/* line Break */
+.row-line {
+    height: 35rem;
+    border-bottom: 1px solid #b01cb5b9;
+    box-shadow: 1px 1px #8d1a2bb7;
+}
+
+/* Footer */
+.foot-er {
+    background-color: #e95f4b;
+}
 
 /* Media queries */
-
-
-
 @media (min-width: 1023px){
     .set-deck-body {
         position: relative;
@@ -86,7 +87,7 @@ color: #750c1d;
 @media (max-width: 1024px){
     .set-deck-body {
         position: relative;
-        top: 15rem;
+        top: 25rem;
         left: 6rem;
     }
 }
@@ -121,13 +122,13 @@ color: #750c1d;
 
 @media (min-width: 1440px){
     .set-deck-body {
-        top: 10rem;
+        top: 28rem;
     }
 }
 
 @media (min-width: 2560px){
     .set-deck-body {
-        top: 10rem;
+        top: 60rem;
         left: 13rem;
     }
 }
