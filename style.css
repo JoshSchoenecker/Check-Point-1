@@ -73,50 +73,23 @@ color: #750c1d;
 
 /* Media queries */
 
-@media (max-width: 575.98px){
-    .set-card-body {
-    margin-bottom: 3rem;   
+
+
+@media (min-width: 1023px){
+    .set-deck-body {
+        position: relative;
+        top: 33rem;
+        left: 8rem;
     }
 }
 
-@media (min-width: 768px){
-.set-deck-body {
-    position: relative;
-    top: 35rem;
-    left: 1rem;
-    }
-}
-
-/* @media (max-width: 768px){
+@media (max-width: 1024px){
     .set-deck-body {
         position: relative;
-        top: 22rem;
-        left: 1rem;
-        }
-    } */
-@media (max-width: 575.98px){
-    .set-deck-body {
-        position: relative;
-        top: 5rem;
-        left: 0;
-    }
-}
-
-@media (min-width: 1024px){
-    .set-deck-body {
-        position: relative;
-        top: 53rem;
+        top: 15rem;
         left: 6rem;
     }
 }
-
-/* @media (max-width: 1024px){
-    .set-deck-body {
-        position: relative;
-        top: 20rem;
-        left: 1rem;
-    }
-} */
 
 @media (max-width: 575.98px){ 
     .card-img-top {
@@ -126,19 +99,35 @@ color: #750c1d;
     }
 }
 
-@media (min-width: 576px){
-    .row-line {
-    height: 15rem;
+@media (max-width: 768px){
+    .set-deck-body {
+        top: 15rem;
+        left: 1rem;
     }
 }
 
-@media (max-width: 375px){
-    .row-line {
-    height: 50rem;
+@media (max-width: 425px){
+    .set-deck-body {
+        top: 6rem;
+        left: .1rem;
     }
-} 
-/* @media (min-width: 375px){
-    .row-line {
-    height: 50rem;
+}
+
+@media (max-width: 320px){
+    .set-deck-body {
+        top: 2rem;
     }
-} */
+}
+
+@media (min-width: 1440px){
+    .set-deck-body {
+        top: 10rem;
+    }
+}
+
+@media (min-width: 2560px){
+    .set-deck-body {
+        top: 10rem;
+        left: 13rem;
+    }
+}
